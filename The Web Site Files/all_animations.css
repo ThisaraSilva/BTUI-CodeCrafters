@@ -1,0 +1,176 @@
+/*navbar scroll change*/
+.bgColor{
+
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    background-color: #0f0f0f;
+ 
+ 
+}
+.aColor, .a1Color, .a2Color, .a3Color, .a4Color{
+    color: rgb(255, 255, 255);
+}
+
+/*sectionbg change*/
+@keyframes section{
+0%{
+    background-image: url(Images/main1.svg  );
+}
+25%{
+    background-image: url(Images/main1.svg  );
+}
+/**/
+33%{
+    background-image: url(Images/main2.svg  );
+}
+58%{
+    background-image: url(Images/main2.svg  );
+}
+66%{
+    background-image: url(Images/main3.svg );
+}
+91%{
+    background-image: url(Images/main3.svg );
+}
+/*100%{
+    33%{
+        background-image: url(Images/Group\ 1.jpg  );
+    }
+}*/
+  }
+
+
+
+/*
+
+  @keyframes lia{
+    0%{
+        color: rgb(109, 29, 0);
+    }
+    25%{
+        color: rgb(97, 26, 0);
+    }
+
+    33%{
+        color: rgb(48, 0, 0);
+    }
+    58%{
+        color: rgb(41, 0, 0);
+    }
+    66%{
+        color: rgb(0, 34, 6);
+    }
+    91%{
+        color: rgb(0, 39, 13);
+    }
+    /*100%{
+        33%{
+            background-image: url(Images/Group\ 1.jpg  );
+        }
+    }*/
+      
+    
+
+  /*nav li a
+  @keyframes lia{
+    0%{
+        color: #753900;
+    }
+    
+  
+ 24%{
+    color: #6d3500;
+ }
+    25%{
+color: #324e0a;
+    }
+    40%{
+        color: #263d06;
+    }
+    50%{
+        color: #5f2e00;
+    }
+    90%{
+        color: #633000;
+
+    }
+    100%{
+        color: #723802;
+  }
+}
+*/
+
+
+
+@keyframes cad{
+    0%{
+        background-color: #1a0c00;
+    }
+    25%{
+        background-color: #180b00;
+    }
+    /**/
+    33%{
+        background-color: #1a0000;
+    }
+    58%{
+        background-color: #160000;
+    }
+    66%{
+        background-color:#0a1100;
+    }
+    91%{
+        background-color:#080e00;
+    }
+
+      }
+
+
+   /*section 2*/
+ 
+
+
+
+
+
+      
+          @keyframes body{
+            0%{
+                background-color: #FE3636;
+            }
+            25%{
+                background-color: #FE3636 ;
+            }
+            /**/
+            33%{
+                background-color: #FF8A1E;
+            }
+            58%{
+                background-color: #FF8A1E;
+            }
+            66%{
+                background-color:#56C031;
+            }
+            91%{
+                background-color:#56C031;
+            }
+        
+              }   
+    
+
+              @keyframes sec2animline{
+                0%{
+                    opacity: 1;
+                    background-color: #080e0000;
+                    display: block;
+                    width: 1%;
+                   
+                }
+                100%{
+                    opacity: 1;
+                    background-color: #ff4242d5;
+                    display: block;
+                    width: 40%;
+                    
+                }
+              }
