@@ -1,0 +1,104 @@
+/*navbar scroll change*/
+.bgColor{
+
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    background-color: #0f0f0f;
+ 
+ 
+}
+.aColor, .a1Color, .a2Color, .a3Color, .a4Color{
+    color: rgb(255, 255, 255);
+}
+
+.totopapear{
+
+    width: 3%;
+    height: 50px;
+
+    text-align: center;
+    background-color: rgba(194, 194, 194, 0.151);
+
+  border-right: 1px solid rgba(255, 255, 255, 0.123);
+    position: fixed;
+    z-index: 200;
+    top: 100vh;
+ 
+ 
+ 
+}
+
+
+
+
+
+
+@keyframes cad{
+    0%{
+        background-color: #1a0c00;
+    }
+    25%{
+        background-color: #180b00;
+    }
+    /**/
+    33%{
+        background-color: #1a0000;
+    }
+    58%{
+        background-color: #160000;
+    }
+    66%{
+        background-color:#0a1100;
+    }
+    91%{
+        background-color:#080e00;
+    }
+
+      }
+
+
+
+
+
+
+      
+          @keyframes body{
+            0%{
+                background-color: #FE3636;
+            }
+            25%{
+                background-color: #FE3636 ;
+            }
+            /**/
+            33%{
+                background-color: #FF8A1E;
+            }
+            58%{
+                background-color: #FF8A1E;
+            }
+            66%{
+                background-color:#56C031;
+            }
+            91%{
+                background-color:#56C031;
+            }
+        
+              }   
+    
+
+              @keyframes sec2animline{
+                0%{
+                    opacity: 1;
+                    background-color: #080e0000;
+                    display: block;
+                    width: 1%;
+                   
+                }
+                100%{
+                    opacity: 1;
+                    background-color: #ff4242d5;
+                    display: block;
+                    width: 40%;
+                    
+                }
+              }

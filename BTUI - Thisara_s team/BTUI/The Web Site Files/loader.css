@@ -1,0 +1,180 @@
+#loader{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    z-index: 100000000;
+   animation-name: loader;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+     display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+.ldpl{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+background-color: rgba(255, 0, 0, 0);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ldpl h3{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: 'JetBrains Mono', monospace;
+    animation-name: ldplh3;
+    animation-duration: 12s;
+opacity: 0;
+    animation-iteration-count: 1;
+}
+.originload{
+    width: 8px;
+ height: 3px;
+    background: rgba(255, 255, 255, 0.274);
+
+    animation-name: originload;
+    animation-duration: 35s;
+opacity: 0;
+    animation-iteration-count: 1;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-radius: 10px;
+}
+@keyframes originload{
+    0%{
+        height: 1vh;
+        opacity: 1;
+    }
+
+    100%{
+        height: 100vh;
+
+        background-color: rgb(255, 255, 255);
+    }
+}
+.loadcover{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+#loader h1{
+   padding-top: 130px;
+    color: rgb(255, 255, 255);
+    font-size: 4rem ;
+    margin-left: auto;
+    animation-name: loaderh1;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 12s;
+    margin-right: auto;
+
+
+    
+}
+#loader h4{
+  color: white;
+  
+  animation-iteration-count: infinite;
+  animation-name: loaderh4;
+  animation-duration: 3s;
+}
+@keyframes loaderh4{
+    0%{
+     
+        display: none;
+    }
+    95%{
+      
+        color: rgb(0, 0, 0);
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes loader{
+    0%{
+      background-color: rgba(0, 0, 0, 0.282);
+      backdrop-filter: blur(200px);
+    }
+
+    90%{
+        background-color: rgba(0, 0, 0, 0.282);
+        backdrop-filter: blur(200px);
+        opacity: 1;
+       
+    }
+
+    100%{
+     opacity: 0;
+     
+    
+    }
+}
+@keyframes loaderh1{
+    0%{
+opacity: 1;
+}
+80%{
+    opacity: 1;
+
+    
+}
+89%{
+  
+}
+
+90%{
+    opacity: 0;
+    
+}
+}
+@keyframes ldplh3{
+    0%{
+opacity: 0;
+}
+20%{
+    opacity: 0;
+}
+30%{
+    opacity: 1;
+}
+85%{
+    opacity: 1;
+}
+90%{
+    opacity: 0;
+   
+}
+}
+@media(max-width:1200px){
+    #loader h1{
+        font-size: 3rem;
+    }
+}
+     @keyframes overflow{
+        0%{
+            overflow-y:hidden;
+        }
+      99%{
+        overflow-y: hidden;
+      }
+      }
+
+ #count{
+        font-size: 2rem;
+        color: #ff5555;
+        position: relative;
+
+        font-weight: 800;
+    }
